@@ -13,7 +13,6 @@ const props = defineProps({
 })
 
 const emit = defineEmits(['custom-event'])
-
 const emitEvent = () => {
   emit('custom-event', 'Hello from child')
 }
