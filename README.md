@@ -30,10 +30,13 @@ Vue2 기반 코드를 Vue3 스타일로 전환
 
    E08 -> E09 <br>
    (script setup)문법으로 단순화한 최신 Composition API 버전<br>
-
+   ![E07~09](./src/assets/E-07.png)
 8. E10 ~ 12 (이미 vue3문법)<br>
    E10 -> ref,setup을 이용한 Composition API <br>
 
    E11 -> reactive,setup을 이용한 Composition API <br>
 
    E12 -> ref,onMounted,setup을 이용한 Composition API + Lifecycle Hook 
+   ![E10](./src/assets/E-10.png)
+   ![E11](./src/assets/E-11.png)
+   ![E12](./src/assets/E-12.png)
