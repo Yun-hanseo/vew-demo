@@ -1,15 +1,15 @@
 <template>
-  <E05ParentComponent/>
+  <E10Ref/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import E05ParentComponent from "@/components/example3/ParentComponent.vue";
+import E10Ref from "@/components/example6/E-10-ref.vue";
 
 export default defineComponent({
   name: 'App',
   components: {
-    E05ParentComponent,
+    E10Ref
   }
 });
 </script>

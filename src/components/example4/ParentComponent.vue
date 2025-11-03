@@ -12,7 +12,6 @@ export default {
   name: 'E06ParentComponent',
   components: { ChildComponent1 },
   setup() {
-    // ✅ provide를 setup 안에서 사용
     provide('sharedMessage', 'Hello from provide')
   }
 }
